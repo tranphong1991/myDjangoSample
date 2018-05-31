@@ -49,6 +49,10 @@ class SnippetViewSet(viewsets.ModelViewSet):
 
 
 
+
+
+
+
 @api_view(['GET'])
 def api_root(request, format=None):
     return Response({
